@@ -9,12 +9,6 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        {/* <nav>
-          <h1>My Articles</h1>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/places">Places</NavLink>
-        </nav> */}
-
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/places' element={<Places/>} />

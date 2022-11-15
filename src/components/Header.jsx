@@ -7,6 +7,8 @@ import Modal from './Modal'
 import metaHouse from "../images/meta-house.jpg"
 import metaBnb from "../images/metabnb.png"
 
+// import places from "../pages/Places";
+
 const Nav = () => {
   const [showModal, setShowModal] = useState(false);
   const [open,setOpen]=useState(false);
