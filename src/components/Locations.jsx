@@ -13,14 +13,14 @@ import loc8 from "../images/loc-8.png"
 
 export default function Locations() {
   return (
-    <div className='flex flex-wrap gap-6 justify-center p-3 text-xs'>
+    <div className='flex flex-wrap gap-6 justify-center p-3 text-sm sm:text-xs'>
       <div className="border p-4 rounded-3xl w-4/5 sm:w-[22%]">
         <img src={loc1} alt="" className='pb-5 w-full' />
         <div className="flex justify-between mb-4 border">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
-        <div className="distanceNavailable flex justify-between mb-4">
+        <div className="flex justify-between mb-4">
           <div>2345km away</div>
           <div>available for 2weeks stay</div>
         </div>
@@ -32,7 +32,7 @@ export default function Locations() {
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
-        <div className="distanceNavailable flex justify-between mb-4">
+        <div className="flex justify-between mb-4">
           <div>2345km away</div>
           <div>available for 2weeks stay</div>
         </div>
@@ -44,7 +44,7 @@ export default function Locations() {
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
-        <div className="distanceNavailable flex justify-between mb-4">
+        <div className="flex justify-between mb-4">
           <div>2345km away</div>
           <div>available for 2weeks stay</div>
         </div>
@@ -56,7 +56,7 @@ export default function Locations() {
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
-        <div className="distanceNavailable flex justify-between mb-4">
+        <div className="flex justify-between mb-4">
           <div>2345km away</div>
           <div>available for 2weeks stay</div>
         </div>
@@ -68,7 +68,7 @@ export default function Locations() {
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
-        <div className="distanceNavailable flex justify-between mb-4">
+        <div className="flex justify-between mb-4">
           <div>2345km away</div>
           <div>available for 2weeks stay</div>
         </div>
@@ -80,7 +80,7 @@ export default function Locations() {
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
-        <div className="distanceNavailable flex justify-between mb-4">
+        <div className="flex justify-between mb-4">
           <div>2345km away</div>
           <div>available for 2weeks stay</div>
         </div>
@@ -92,7 +92,7 @@ export default function Locations() {
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
-        <div className="distanceNavailable flex justify-between mb-4">
+        <div className="flex justify-between mb-4">
           <div>2345km away</div>
           <div>available for 2weeks stay</div>
         </div>
@@ -104,7 +104,7 @@ export default function Locations() {
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
-        <div className="distanceNavailable flex justify-between mb-4">
+        <div className="flex justify-between mb-4">
           <div>2345km away</div>
           <div>available for 2weeks stay</div>
         </div>

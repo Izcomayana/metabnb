@@ -56,7 +56,7 @@ function App() {
       </div>
 
       <div className="my-10 m-auto w-[90%]">
-        <h2 className="font-bold mb-5 text-3xl sm:text-4xl text-center">Inspiration for your next adventure</h2>
+        <h2 className="font-bold mb-10 text-3xl sm:text-4xl text-center">Inspiration for your next adventure</h2>
         <Locations />
       </div>
 
