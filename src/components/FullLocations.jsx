@@ -22,195 +22,195 @@ import loc16 from "../images/loc-16.png"
 export default function Locations() {
   return (
     <div className='flex flex-wrap gap-8 justify-center p-3 text-sm sm:text-xs'>
-      <div className="border p-3 rounded-3xl w-4/5 sm:w-[22%]">
+      <div className="border p-3 rounded-3xl mn:w-2/5 w-4/5 sm:w-[22%]">
         <img src={loc1} alt="" className='pb-5 w-full' />
-        <div className="flex justify-between mb-4 border">
+        <div className="flex justify-between mb-4">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
-        <div className="distanceNavailable flex justify-between mb-4">
-          <div className="distance">2345km away</div>
-          <div className="available">available for 2weeks stay</div>
+        <div className="flex justify-between mb-4">
+          <div>2345km away</div>
+          <div>available for 2weeks stay</div>
         </div>
         <img src={rating} alt="" />
       </div>
-      <div className="location border p-3 rounded-3xl w-4/5 sm:w-[22%]">
+      <div className="location border p-3 rounded-3xl mn:w-2/5 w-4/5 sm:w-[22%]">
         <img src={loc2} alt="" className='pb-5 w-full' />
-        <div className="nameNprice flex justify-between mb-4 border">
+        <div className="nameNprice flex justify-between mb-4">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
-        <div className="distanceNavailable flex justify-between mb-4">
-          <div className="distance">2345km away</div>
-          <div className="available">available for 2weeks stay</div>
+        <div className="flex justify-between mb-4">
+          <div>2345km away</div>
+          <div>available for 2weeks stay</div>
         </div>
         <img src={rating} alt="" />
       </div>
-      <div className="location border p-3 rounded-3xl w-4/5 sm:w-[22%]">
+      <div className="location border p-3 rounded-3xl mn:w-2/5 w-4/5 sm:w-[22%]">
         <img src={loc3} alt="" className='pb-5 w-full' />
-        <div className="nameNprice flex justify-between mb-4 border">
+        <div className="nameNprice flex justify-between mb-4">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
-        <div className="distanceNavailable flex justify-between mb-4">
-          <div className="distance">2345km away</div>
-          <div className="available">available for 2weeks stay</div>
+        <div className="flex justify-between mb-4">
+          <div>2345km away</div>
+          <div>available for 2weeks stay</div>
         </div>
         <img src={rating} alt="" />
       </div>
-      <div className="location border p-3 rounded-3xl w-4/5 sm:w-[22%]">
+      <div className="location border p-3 rounded-3xl mn:w-2/5 w-4/5 sm:w-[22%]">
         <img src={loc4} alt="" className='pb-5 w-full' />
-        <div className="nameNprice flex justify-between mb-4 border">
+        <div className="nameNprice flex justify-between mb-4">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
-        <div className="distanceNavailable flex justify-between mb-4">
-          <div className="distance">2345km away</div>
-          <div className="available">available for 2weeks stay</div>
+        <div className="flex justify-between mb-4">
+          <div>2345km away</div>
+          <div>available for 2weeks stay</div>
         </div>
         <img src={rating} alt="" />
       </div>
-      <div className="location border p-3 rounded-3xl w-4/5 sm:w-[22%]">
+      <div className="location border p-3 rounded-3xl mn:w-2/5 w-4/5 sm:w-[22%]">
         <img src={loc5} alt="" className='pb-5 w-full' />
-        <div className="nameNprice flex justify-between mb-4 border">
+        <div className="nameNprice flex justify-between mb-4">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
-        <div className="distanceNavailable flex justify-between mb-4">
-          <div className="distance">2345km away</div>
-          <div className="available">available for 2weeks stay</div>
+        <div className="flex justify-between mb-4">
+          <div>2345km away</div>
+          <div>available for 2weeks stay</div>
         </div>
         <img src={rating} alt="" />
       </div>
-      <div className="location border p-3 rounded-3xl w-4/5 sm:w-[22%]">
+      <div className="location border p-3 rounded-3xl mn:w-2/5 w-4/5 sm:w-[22%]">
         <img src={loc6} alt="" className='pb-5 w-full' />
-        <div className="nameNprice flex justify-between mb-4 border">
+        <div className="nameNprice flex justify-between mb-4">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
-        <div className="distanceNavailable flex justify-between mb-4">
-          <div className="distance">2345km away</div>
-          <div className="available">available for 2weeks stay</div>
+        <div className="flex justify-between mb-4">
+          <div>2345km away</div>
+          <div>available for 2weeks stay</div>
         </div>
         <img src={rating} alt="" />
       </div>
-      <div className="location border p-3 rounded-3xl w-4/5 sm:w-[22%]">
+      <div className="location border p-3 rounded-3xl mn:w-2/5 w-4/5 sm:w-[22%]">
         <img src={loc7} alt="" className='pb-5 w-full' />
-        <div className="nameNprice flex justify-between mb-4 border">
+        <div className="nameNprice flex justify-between mb-4">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
-        <div className="distanceNavailable flex justify-between mb-4">
-          <div className="distance">2345km away</div>
-          <div className="available">available for 2weeks stay</div>
+        <div className="flex justify-between mb-4">
+          <div>2345km away</div>
+          <div>available for 2weeks stay</div>
         </div>
         <img src={rating} alt="" />
       </div>
-      <div className="location border p-3 rounded-3xl w-4/5 sm:w-[22%]">
+      <div className="location border p-3 rounded-3xl mn:w-2/5 w-4/5 sm:w-[22%]">
         <img src={loc8} alt="" className='pb-5 w-full' />
-        <div className="nameNprice flex justify-between mb-4 border">
+        <div className="nameNprice flex justify-between mb-4">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
-        <div className="distanceNavailable flex justify-between mb-4">
-          <div className="distance">2345km away</div>
-          <div className="available">available for 2weeks stay</div>
+        <div className="flex justify-between mb-4">
+          <div>2345km away</div>
+          <div>available for 2weeks stay</div>
         </div>
         <img src={rating} alt="" />
       </div>
-      <div className="location border p-3 rounded-3xl w-4/5 sm:w-[22%]">
+      <div className="location border p-3 rounded-3xl mn:w-2/5 w-4/5 sm:w-[22%]">
         <img src={loc9} alt="" className='pb-5 w-full' />
-        <div className="nameNprice flex justify-between mb-4 border">
+        <div className="nameNprice flex justify-between mb-4">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
-        <div className="distanceNavailable flex justify-between mb-4">
-          <div className="distance">2345km away</div>
-          <div className="available">available for 2weeks stay</div>
+        <div className="flex justify-between mb-4">
+          <div>2345km away</div>
+          <div>available for 2weeks stay</div>
         </div>
         <img src={rating} alt="" />
       </div>
-      <div className="location border p-3 rounded-3xl w-4/5 sm:w-[22%]">
+      <div className="location border p-3 rounded-3xl mn:w-2/5 w-4/5 sm:w-[22%]">
         <img src={loc10} alt="" className='pb-5 w-full' />
-        <div className="nameNprice flex justify-between mb-4 border">
+        <div className="nameNprice flex justify-between mb-4">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
-        <div className="distanceNavailable flex justify-between mb-4">
-          <div className="distance">2345km away</div>
-          <div className="available">available for 2weeks stay</div>
+        <div className="flex justify-between mb-4">
+          <div>2345km away</div>
+          <div>available for 2weeks stay</div>
         </div>
         <img src={rating} alt="" />
       </div>
-      <div className="location border p-3 rounded-3xl w-4/5 sm:w-[22%]">
+      <div className="location border p-3 rounded-3xl mn:w-2/5 w-4/5 sm:w-[22%]">
         <img src={loc11} alt="" className='pb-5 w-full' />
-        <div className="nameNprice flex justify-between mb-4 border">
+        <div className="nameNprice flex justify-between mb-4">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
-        <div className="distanceNavailable flex justify-between mb-4">
-          <div className="distance">2345km away</div>
-          <div className="available">available for 2weeks stay</div>
+        <div className="flex justify-between mb-4">
+          <div>2345km away</div>
+          <div>available for 2weeks stay</div>
         </div>
         <img src={rating} alt="" />
       </div>
-      <div className="location border p-3 rounded-3xl w-4/5 sm:w-[22%]">
+      <div className="location border p-3 rounded-3xl mn:w-2/5 w-4/5 sm:w-[22%]">
         <img src={loc12} alt="" className='pb-5 w-full' />
-        <div className="nameNprice flex justify-between mb-4 border">
+        <div className="nameNprice flex justify-between mb-4">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
-        <div className="distanceNavailable flex justify-between mb-4">
-          <div className="distance">2345km away</div>
-          <div className="available">available for 2weeks stay</div>
+        <div className="flex justify-between mb-4">
+          <div>2345km away</div>
+          <div>available for 2weeks stay</div>
         </div>
         <img src={rating} alt="" />
       </div>
-      <div className="location border p-3 rounded-3xl w-4/5 sm:w-[22%]">
+      <div className="location border p-3 rounded-3xl mn:w-2/5 w-4/5 sm:w-[22%]">
         <img src={loc13} alt="" className='pb-5 w-full' />
-        <div className="nameNprice flex justify-between mb-4 border">
+        <div className="nameNprice flex justify-between mb-4">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
-        <div className="distanceNavailable flex justify-between mb-4">
-          <div className="distance">2345km away</div>
-          <div className="available">available for 2weeks stay</div>
+        <div className="flex justify-between mb-4">
+          <div>2345km away</div>
+          <div>available for 2weeks stay</div>
         </div>
         <img src={rating} alt="" />
       </div>
-      <div className="location border p-3 rounded-3xl w-4/5 sm:w-[22%]">
+      <div className="location border p-3 rounded-3xl mn:w-2/5 w-4/5 sm:w-[22%]">
         <img src={loc14} alt="" className='pb-5 w-full' />
-        <div className="nameNprice flex justify-between mb-4 border">
+        <div className="nameNprice flex justify-between mb-4">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
-        <div className="distanceNavailable flex justify-between mb-4">
-          <div className="distance">2345km away</div>
-          <div className="available">available for 2weeks stay</div>
+        <div className="flex justify-between mb-4">
+          <div>2345km away</div>
+          <div>available for 2weeks stay</div>
         </div>
         <img src={rating} alt="" />
       </div>
-      <div className="location border p-3 rounded-3xl w-4/5 sm:w-[22%]">
+      <div className="location border p-3 rounded-3xl mn:w-2/5 w-4/5 sm:w-[22%]">
         <img src={loc15} alt="" className='pb-5 w-full' />
-        <div className="nameNprice flex justify-between mb-4 border">
+        <div className="nameNprice flex justify-between mb-4">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
-        <div className="distanceNavailable flex justify-between mb-4">
-          <div className="distance">2345km away</div>
-          <div className="available">available for 2weeks stay</div>
+        <div className="flex justify-between mb-4">
+          <div>2345km away</div>
+          <div>available for 2weeks stay</div>
         </div>
         <img src={rating} alt="" />
       </div>
-      <div className="location border p-3 rounded-3xl w-4/5 sm:w-[22%]">
+      <div className="location border p-3 rounded-3xl mn:w-2/5 w-4/5 sm:w-[22%]">
         <img src={loc16} alt="" className='pb-5 w-full' />
-        <div className="nameNprice flex justify-between mb-4 border">
+        <div className="nameNprice flex justify-between mb-4">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
-        <div className="distanceNavailable flex justify-between mb-4">
-          <div className="distance">2345km away</div>
-          <div className="available">available for 2weeks stay</div>
+        <div className="flex justify-between mb-4">
+          <div>2345km away</div>
+          <div>available for 2weeks stay</div>
         </div>
         <img src={rating} alt="" />
       </div>

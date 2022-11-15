@@ -14,9 +14,9 @@ import loc8 from "../images/loc-8.png"
 export default function Locations() {
   return (
     <div className='flex flex-wrap gap-6 justify-center p-3 text-sm sm:text-xs'>
-      <div className="border p-4 rounded-3xl w-4/5 sm:w-[22%]">
+      <div className="border p-4 rounded-3xl w-4/5 mn:w-2/5 sm:w-[22%]">
         <img src={loc1} alt="" className='pb-5 w-full' />
-        <div className="flex justify-between mb-4 border">
+        <div className="flex justify-between mb-4">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
@@ -26,9 +26,9 @@ export default function Locations() {
         </div>
         <img src={rating} alt="" />
       </div>
-      <div className="border p-4 rounded-3xl w-4/5 sm:w-[22%]">
+      <div className="border p-4 rounded-3xl w-4/5 mn:w-2/5 sm:w-[22%]">
         <img src={loc2} alt="" className='pb-5 w-full' />
-        <div className="flex justify-between mb-4 border">
+        <div className="flex justify-between mb-4">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
@@ -38,9 +38,9 @@ export default function Locations() {
         </div>
         <img src={rating} alt="" />
       </div>
-      <div className="border p-4 rounded-3xl w-4/5 sm:w-[22%]">
+      <div className="border p-4 rounded-3xl w-4/5 mn:w-2/5 sm:w-[22%]">
         <img src={loc3} alt="" className='pb-5 w-full' />
-        <div className="flex justify-between mb-4 border">
+        <div className="flex justify-between mb-4">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
@@ -50,9 +50,9 @@ export default function Locations() {
         </div>
         <img src={rating} alt="" />
       </div>
-      <div className="border p-4 rounded-3xl w-4/5 sm:w-[22%]">
+      <div className="border p-4 rounded-3xl w-4/5 mn:w-2/5 sm:w-[22%]">
         <img src={loc4} alt="" className='pb-5 w-full' />
-        <div className="flex justify-between mb-4 border">
+        <div className="flex justify-between mb-4">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
@@ -62,9 +62,9 @@ export default function Locations() {
         </div>
         <img src={rating} alt="" />
       </div>
-      <div className="border p-4 rounded-3xl w-4/5 sm:w-[22%]">
+      <div className="border p-4 rounded-3xl w-4/5 mn:w-2/5 sm:w-[22%]">
         <img src={loc5} alt="" className='pb-5 w-full' />
-        <div className="flex justify-between mb-4 border">
+        <div className="flex justify-between mb-4">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
@@ -74,9 +74,9 @@ export default function Locations() {
         </div>
         <img src={rating} alt="" />
       </div>
-      <div className="border p-4 rounded-3xl w-4/5 sm:w-[22%]">
+      <div className="border p-4 rounded-3xl w-4/5 mn:w-2/5 sm:w-[22%]">
         <img src={loc6} alt="" className='pb-5 w-full' />
-        <div className="flex justify-between mb-4 border">
+        <div className="flex justify-between mb-4">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
@@ -86,9 +86,9 @@ export default function Locations() {
         </div>
         <img src={rating} alt="" />
       </div>
-      <div className="border p-4 rounded-3xl w-4/5 sm:w-[22%]">
+      <div className="border p-4 rounded-3xl w-4/5 mn:w-2/5 sm:w-[22%]">
         <img src={loc7} alt="" className='pb-5 w-full' />
-        <div className="flex justify-between mb-4 border">
+        <div className="flex justify-between mb-4">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>
@@ -98,9 +98,9 @@ export default function Locations() {
         </div>
         <img src={rating} alt="" />
       </div>
-      <div className="border p-4 rounded-3xl w-4/5 sm:w-[22%]">
+      <div className="border p-4 rounded-3xl w-4/5 mn:w-2/5 sm:w-[22%]">
         <img src={loc8} alt="" className='pb-5 w-full' />
-        <div className="flex justify-between mb-4 border">
+        <div className="flex justify-between mb-4">
           <div>Desert King</div>
           <div>1MBT per night</div>
         </div>

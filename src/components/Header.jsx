@@ -16,7 +16,7 @@ const Nav = () => {
 
   const Links = [
     {name:"Home", link:"/"},
-    {name:"Places to stay", link:"/places"},
+    {name:"Places to stay", link:"./places"},
     {name:"NFTs", link:"#"},
     {name:"Communty", link:"#"}
   ];
