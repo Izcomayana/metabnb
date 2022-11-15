@@ -21,12 +21,12 @@ import loc16 from "../images/loc-16.png"
 
 export default function Locations() {
   return (
-    <div className='locations flex flex-wrap gap-8 justify-center p-3 text-xs'>
-      <div className="location border p-4 rounded-3xl w-4/5">
+    <div className='flex flex-wrap gap-8 justify-center p-3 text-xs'>
+      <div className="border p-4 rounded-3xl w-4/5">
         <img src={loc1} alt="" className='pb-5 w-full' />
-        <div className="nameNprice flex justify-between mb-4 border">
-          <div className='name'>Desert King</div>
-          <div className="price">1MBT per night</div>
+        <div className="flex justify-between mb-4 border">
+          <div>Desert King</div>
+          <div>1MBT per night</div>
         </div>
         <div className="distanceNavailable flex justify-between mb-4">
           <div className="distance">2345km away</div>
@@ -37,8 +37,8 @@ export default function Locations() {
       <div className="location border p-4 rounded-3xl w-4/5">
         <img src={loc2} alt="" className='pb-5 w-full' />
         <div className="nameNprice flex justify-between mb-4 border">
-          <div className='name'>Desert King</div>
-          <div className="price">1MBT per night</div>
+          <div>Desert King</div>
+          <div>1MBT per night</div>
         </div>
         <div className="distanceNavailable flex justify-between mb-4">
           <div className="distance">2345km away</div>
@@ -49,8 +49,8 @@ export default function Locations() {
       <div className="location border p-4 rounded-3xl w-4/5">
         <img src={loc3} alt="" className='pb-5 w-full' />
         <div className="nameNprice flex justify-between mb-4 border">
-          <div className='name'>Desert King</div>
-          <div className="price">1MBT per night</div>
+          <div>Desert King</div>
+          <div>1MBT per night</div>
         </div>
         <div className="distanceNavailable flex justify-between mb-4">
           <div className="distance">2345km away</div>
@@ -61,8 +61,8 @@ export default function Locations() {
       <div className="location border p-4 rounded-3xl w-4/5">
         <img src={loc4} alt="" className='pb-5 w-full' />
         <div className="nameNprice flex justify-between mb-4 border">
-          <div className='name'>Desert King</div>
-          <div className="price">1MBT per night</div>
+          <div>Desert King</div>
+          <div>1MBT per night</div>
         </div>
         <div className="distanceNavailable flex justify-between mb-4">
           <div className="distance">2345km away</div>
@@ -73,8 +73,8 @@ export default function Locations() {
       <div className="location border p-4 rounded-3xl w-4/5">
         <img src={loc5} alt="" className='pb-5 w-full' />
         <div className="nameNprice flex justify-between mb-4 border">
-          <div className='name'>Desert King</div>
-          <div className="price">1MBT per night</div>
+          <div>Desert King</div>
+          <div>1MBT per night</div>
         </div>
         <div className="distanceNavailable flex justify-between mb-4">
           <div className="distance">2345km away</div>
@@ -85,8 +85,8 @@ export default function Locations() {
       <div className="location border p-4 rounded-3xl w-4/5">
         <img src={loc6} alt="" className='pb-5 w-full' />
         <div className="nameNprice flex justify-between mb-4 border">
-          <div className='name'>Desert King</div>
-          <div className="price">1MBT per night</div>
+          <div>Desert King</div>
+          <div>1MBT per night</div>
         </div>
         <div className="distanceNavailable flex justify-between mb-4">
           <div className="distance">2345km away</div>
@@ -97,8 +97,8 @@ export default function Locations() {
       <div className="location border p-4 rounded-3xl w-4/5">
         <img src={loc7} alt="" className='pb-5 w-full' />
         <div className="nameNprice flex justify-between mb-4 border">
-          <div className='name'>Desert King</div>
-          <div className="price">1MBT per night</div>
+          <div>Desert King</div>
+          <div>1MBT per night</div>
         </div>
         <div className="distanceNavailable flex justify-between mb-4">
           <div className="distance">2345km away</div>
@@ -109,8 +109,8 @@ export default function Locations() {
       <div className="location border p-4 rounded-3xl w-4/5">
         <img src={loc8} alt="" className='pb-5 w-full' />
         <div className="nameNprice flex justify-between mb-4 border">
-          <div className='name'>Desert King</div>
-          <div className="price">1MBT per night</div>
+          <div>Desert King</div>
+          <div>1MBT per night</div>
         </div>
         <div className="distanceNavailable flex justify-between mb-4">
           <div className="distance">2345km away</div>
@@ -121,8 +121,8 @@ export default function Locations() {
       <div className="location border p-4 rounded-3xl w-4/5">
         <img src={loc9} alt="" className='pb-5 w-full' />
         <div className="nameNprice flex justify-between mb-4 border">
-          <div className='name'>Desert King</div>
-          <div className="price">1MBT per night</div>
+          <div>Desert King</div>
+          <div>1MBT per night</div>
         </div>
         <div className="distanceNavailable flex justify-between mb-4">
           <div className="distance">2345km away</div>
@@ -133,8 +133,8 @@ export default function Locations() {
       <div className="location border p-4 rounded-3xl w-4/5">
         <img src={loc10} alt="" className='pb-5 w-full' />
         <div className="nameNprice flex justify-between mb-4 border">
-          <div className='name'>Desert King</div>
-          <div className="price">1MBT per night</div>
+          <div>Desert King</div>
+          <div>1MBT per night</div>
         </div>
         <div className="distanceNavailable flex justify-between mb-4">
           <div className="distance">2345km away</div>
@@ -145,8 +145,8 @@ export default function Locations() {
       <div className="location border p-4 rounded-3xl w-4/5">
         <img src={loc11} alt="" className='pb-5 w-full' />
         <div className="nameNprice flex justify-between mb-4 border">
-          <div className='name'>Desert King</div>
-          <div className="price">1MBT per night</div>
+          <div>Desert King</div>
+          <div>1MBT per night</div>
         </div>
         <div className="distanceNavailable flex justify-between mb-4">
           <div className="distance">2345km away</div>
@@ -157,8 +157,8 @@ export default function Locations() {
       <div className="location border p-4 rounded-3xl w-4/5">
         <img src={loc12} alt="" className='pb-5 w-full' />
         <div className="nameNprice flex justify-between mb-4 border">
-          <div className='name'>Desert King</div>
-          <div className="price">1MBT per night</div>
+          <div>Desert King</div>
+          <div>1MBT per night</div>
         </div>
         <div className="distanceNavailable flex justify-between mb-4">
           <div className="distance">2345km away</div>
@@ -169,8 +169,8 @@ export default function Locations() {
       <div className="location border p-4 rounded-3xl w-4/5">
         <img src={loc13} alt="" className='pb-5 w-full' />
         <div className="nameNprice flex justify-between mb-4 border">
-          <div className='name'>Desert King</div>
-          <div className="price">1MBT per night</div>
+          <div>Desert King</div>
+          <div>1MBT per night</div>
         </div>
         <div className="distanceNavailable flex justify-between mb-4">
           <div className="distance">2345km away</div>
@@ -181,8 +181,8 @@ export default function Locations() {
       <div className="location border p-4 rounded-3xl w-4/5">
         <img src={loc14} alt="" className='pb-5 w-full' />
         <div className="nameNprice flex justify-between mb-4 border">
-          <div className='name'>Desert King</div>
-          <div className="price">1MBT per night</div>
+          <div>Desert King</div>
+          <div>1MBT per night</div>
         </div>
         <div className="distanceNavailable flex justify-between mb-4">
           <div className="distance">2345km away</div>
@@ -193,8 +193,8 @@ export default function Locations() {
       <div className="location border p-4 rounded-3xl w-4/5">
         <img src={loc15} alt="" className='pb-5 w-full' />
         <div className="nameNprice flex justify-between mb-4 border">
-          <div className='name'>Desert King</div>
-          <div className="price">1MBT per night</div>
+          <div>Desert King</div>
+          <div>1MBT per night</div>
         </div>
         <div className="distanceNavailable flex justify-between mb-4">
           <div className="distance">2345km away</div>
@@ -205,8 +205,8 @@ export default function Locations() {
       <div className="location border p-4 rounded-3xl w-4/5">
         <img src={loc16} alt="" className='pb-5 w-full' />
         <div className="nameNprice flex justify-between mb-4 border">
-          <div className='name'>Desert King</div>
-          <div className="price">1MBT per night</div>
+          <div>Desert King</div>
+          <div>1MBT per night</div>
         </div>
         <div className="distanceNavailable flex justify-between mb-4">
           <div className="distance">2345km away</div>

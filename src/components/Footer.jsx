@@ -7,12 +7,15 @@ import twitter from "../images/twitter.png"
 
 export default function Footer() {
   return (
-    <div className='footer bg-black flex flex-col-reverse mt-10 sm:flex-row justify-center sm:justify-start p-10 py-16 sm:p-0 sm:pb-10 sm:pt-10 text-base text-white text-center sm:text-left'>
-      <div className="meta-contacts sm:w-1/6 sm:ml-12">
+    <div 
+      className='bg-black flex flex-col-reverse mt-10 
+      sm:flex-row justify-center sm:justify-start p-10 py-16 sm:p-0 
+      sm:pb-10 sm:pt-10 text-base text-white text-center sm:text-left'
+    > <div className="sm:w-1/6 sm:ml-12">
         <div className='mb-20'>
           <img src={metaLogo} alt="" className='mx-auto' />
         </div>
-        <div className="links flex w-1/2 mx-auto  sm:ml-0 sm:w-9/12">
+        <div className="flex w-1/2 mx-auto  sm:ml-0 sm:w-9/12">
           <img src={facebook} alt="" className='mb-6 mx-auto sm:ml-0' />
           <img src={instagram} alt="" className='mb-6 mx-auto' />
           <img src={twitter} alt="" className='mb-6 mx-auto' />
@@ -20,8 +23,8 @@ export default function Footer() {
         <p>&copy; 2022 metabnb</p>
       </div>
       
-      <div className="meta-others mb-10 sm:flex sm:w-[70%] sm:justify-around sm:text-sm">
-        <div className="communities mb-8">
+      <div className="mb-10 sm:flex sm:w-[70%] sm:justify-around sm:text-sm">
+        <div className="mb-8">
           <h3 className='font-bold mb-2 text-2xl'>Communities</h3>
           <p className='mb-1'>NFT</p>
           <p className='mb-1'>Tokens</p>

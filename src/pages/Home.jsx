@@ -33,7 +33,9 @@ function App() {
             className='w-[70%] rounded-l-md border-y-2 border-l-2 h-12 px-5' 
             placeholder='Search for location' 
             type="text" />
-            <button className='bg-[#A02279] border h-12 hover:bg-[#c7459e] rounded-r-md transition duration-300 w-[30%] '>Search</button>
+            <button className='bg-[#A02279] border h-12 hover:bg-[#c7459e] rounded-r-md transition duration-300 w-[30%]'>
+              Search
+            </button>
           </div>
         </div>
       </div>
@@ -69,7 +71,11 @@ function App() {
           Loyal customers gets amazing gift cards which are traded as NFTs. 
           These NFTs gives our cutomer access to loads of our exclusive services.
           </p>
-          <button className='bg-white w-max border cursor-pointer hover:bg-[#A02279] hover:border hover:text-white p-3 rounded-md text-[#A02279] transition-all duration-300'>Learn More</button>
+          <button 
+            className='bg-white w-max border cursor-pointer hover:bg-[#A02279] hover:border hover:text-white 
+            p-3 rounded-md text-[#A02279] transition-all duration-300'>
+              Learn More
+          </button>
         </div>
       </div>
 

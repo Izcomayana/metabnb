@@ -13,8 +13,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div className="categories flex">
-        {/* <p>Resturant</p>
+      {/* <div className="categories flex justify-between w-">
+        <p>Resturant</p>
         <p>Cottage</p>
         <p>Castle</p>
         <p>Fantastic Cities</p>
@@ -25,8 +25,8 @@ function App() {
         <button>
           Location
           <img src={sort} alt="" />
-        </button> */}
-      </div>
+        </button>
+      </div> */}
 
       <div className='mb-5 ml-5'>
         <Dropdown />
