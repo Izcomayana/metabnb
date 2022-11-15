@@ -8,7 +8,7 @@ import metaHouse from "../images/meta-house.jpg"
 import metaBnb from "../images/metabnb.png"
 import { Link } from 'react-router-dom';
 
-// import places from "../pages/Places";
+import places from "../pages/Places";
 
 const Nav = () => {
   const [showModal, setShowModal] = useState(false);
@@ -16,7 +16,7 @@ const Nav = () => {
 
   const Links = [
     {name:"Home", link:"/"},
-    {name:"Places to stay", link:"./places"},
+    {name:"Places to stay", link:"/places"},
     {name:"NFTs", link:"#"},
     {name:"Communty", link:"#"}
   ];
@@ -40,8 +40,6 @@ const Nav = () => {
               <img src={metaBnb} className="w-[45%] h-full mt-0.5" alt="" />
             </div>
           </div>
-
-          {/* <Link to="/places">Places</Link> */}
         
           <div 
           onClick={()=>setOpen(!open)} 
@@ -55,14 +53,11 @@ const Nav = () => {
           >{
               Links.map((link)=>(
                 <li key={link.name} className='md:ml-8 text-xl md:my-0 my-5'>
-                  <a 
-                    href={link.link} 
+                  <Link 
+                    to={link.link}
                     className='text-white md:text-black md:hover:text-gray-700 hover:text-slate-300 duration-500'>
                     {link.name}
-                  </a>
-                  {/* <Link>
-                  
-                  </Link> */}
+                  </Link>
                 </li>
               ))
             }
